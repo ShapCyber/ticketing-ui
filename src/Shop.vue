@@ -11,7 +11,7 @@
     </v-snackbar>
     <v-stepper v-model="purchasestep" elevation-0>
       <v-stepper-header>
-        <v-stepper-step step="1" v-bind:complete="purchasestep > 1">Select date and session</v-stepper-step>
+        <v-stepper-step step="1" v-bind:complete="purchasestep > 1">Select date and sessions</v-stepper-step>
         <v-divider />
         <v-stepper-step step="2" v-bind:complete="purchasestep > 2">Select tickets</v-stepper-step>
         <v-divider />
